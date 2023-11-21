@@ -58,5 +58,5 @@ createPost("First Post")
     logPostsAndActivity();
   })
   .catch((error) => {
-    console.error("Error:", error);
+    console.log( error);
   });
